@@ -34,7 +34,7 @@ def tokenize(sentence):
 # In[31]:
 
 
-df = pd.read_csv('/Users/aamod/Aamod/UMass/Fall 2020/CS 490A/Project/data.csv', index_col=[0])
+df = pd.read_csv('./data.csv', index_col=[0])
 df = df.drop('id', axis = 1)
 df = df.dropna()
 df['tok_title'] = df['title'].apply(tokenize)
