@@ -11,4 +11,4 @@ Equal number of posts were taken from left and right leaning subreddits to train
 
 ## Description
 This is a **Naive Bayes** model that trains on Bag of Words. Achieves **86% accuracy**.  
-It is trained on the `data.xlsx` file, which consists of posts, and comments from over 30 politically aligned subreddits of both sides. This is a part of a larger project I did with colleagues at University of Massachusetts, Amherst. We wrote a paper on this issue, and tested with two other models. This one was one of the better performing models.
+It is trained on the `data.xlsx` file, which consists of posts, and comments from over 30 politically aligned subreddits of both sides. This is a part of a larger project I did with some colleagues at University of Massachusetts, Amherst. We wrote a paper on this issue, and tested with two other models. This one was one of the better performing models.
